@@ -26,8 +26,8 @@ public class GUI extends JFrame {
 		Container pane = getContentPane();
 		pane.setLayout(MasterPanelLayout);
 		setBounds(100, 100, 2000, 1000);
-        setResizable(false);		
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+       		setResizable(false);		
+        	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
 		setContentPane(pane);
 		setExtendedState(JFrame.MAXIMIZED_BOTH); 
